@@ -137,7 +137,7 @@ FormSyphon =
     return $el.prop("name")
 
   keyJoiner : (parentKey, key) ->
-    return "#{parentKey}[#{childKey}]"
+    return "#{parentKey}[#{key}]"
 
   keySplitter : (key) ->
     matches = key.match(/[^\[\]]+/g)
