@@ -110,7 +110,7 @@ FormSyphon =
       return $el.val()
 
     number : ($el) ->
-      return parseInt($el.val())
+      return parseFloat($el.val())
 
     checkbox : ($el) ->
       return $el.prop("checked")
