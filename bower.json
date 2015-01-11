@@ -1,6 +1,6 @@
 {
   "name": "form-syphon",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "https://github.com/scalableminds/form-syphon",
   "description": "Serializes and deserializes all input elements in a container element.",
   "authors": [
